@@ -167,3 +167,19 @@ p {
         padding-left: calc($spacing-unit / 2);
     }
 }
+
+/**
+ * Site footer
+ */
+.site-footer {
+    margin-top: 9rem;
+    padding: $spacing-unit;
+    border: 2px solid black;
+    outline: 4px solid black; /* Second border outside */
+    outline-offset: 5px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0);
+}
+
+.copyright {
+   text-align: center;
+}
