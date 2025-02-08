@@ -73,6 +73,9 @@ body {
     line-height: $base-line-height;
     font-weight: 300;
     -webkit-text-size-adjust: $full-width;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 .container {
@@ -216,7 +219,8 @@ p {
  * Site footer
  */
 .site-footer {
-    margin-top: 9rem;
+    margin-top: auto;
+    //margin-top: 9rem;
     padding: $spacing-unit;
     border: 2px solid black;
     outline: 4px solid black; /* Second border outside */
