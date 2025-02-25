@@ -224,6 +224,16 @@ li {
     }
 }
 
+
+.main-img {
+    width: 50%;
+    height: auto;
+
+    @include media-query($on-palm) {
+    }
+}
+
+
 /**
  * Site footer
  */
