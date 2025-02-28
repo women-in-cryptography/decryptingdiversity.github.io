@@ -233,7 +233,6 @@ li {
     }
 }
 
-
 /**
  * Site footer
  */
@@ -257,6 +256,12 @@ li {
   grid-template-columns: repeat(4, 2fr);
   grid-template-rows: repeat(1, 15vw);
   grid-gap: 40px;
+
+  @media only screen and (max-width: 600px) {
+    p {
+      padding-bottom: 20px;
+    }
+  }
 }
 
 @media only screen and (max-width: 600px) {
