@@ -344,6 +344,7 @@ nav {
   border: 4px solid black;
   padding: .5rem 0;
   margin-bottom: 20px;
+
 }
 
 nav ul {
@@ -352,12 +353,20 @@ nav ul {
   margin: 0;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+
 }
 
 nav ul li {
   margin: 0 1rem;
   border-right: 2px solid black;
   border-left: 2px solid black;
+
+  @media only screen and (max-width: 600px) {
+    border-bottom: 2px solid black;
+    border-left: 0;
+    border-right: 0;
+  }
 }
 
 nav ul li a {
