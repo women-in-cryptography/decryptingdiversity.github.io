@@ -22,7 +22,7 @@ $background-color: #74A1859F;
 
 $white-color:      #fafafa;
 $strong-orange-color:  #ff6700;
-$orange-hover-color:  #FBA671;
+$orange-hover-color:  #FBA6713F;
 $red-hover-color:  #fafafa;
 $black-color:       black;
 
@@ -275,10 +275,10 @@ li {
   height: 100%;
   object-fit: cover;
 
-    border: 2px solid black;
-    outline: 4px solid black; /* Second border outside */
-    outline-offset: 5px;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0);
+  border: 2px solid black;
+  outline: 4px solid black; /* Second border outside */
+  outline-offset: 5px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0);
 }
 
 .gallery__item--1 {
@@ -336,5 +336,53 @@ li {
 .announce {
   margin-top: 3rem;
   padding: 1.5rem;
-  background-color: #F9E9E5;
+  background-color: $orange-hover-color;
+}
+
+nav {
+  border: 4px solid black;
+  padding: .5rem 0;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 1rem;
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+}
+
+nav ul li a {
+  color: $text-color;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 12px;
+  display: block;
+}
+
+nav ul li a:hover {
+  background-color: $orange-hover-color;
+}
+
+section {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 2px solid #d5d5d5;
+}
+
+h2 {
+  padding-bottom: 5px;
+}
+
+.poster-sec {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
