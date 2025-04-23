@@ -467,3 +467,10 @@ a:hover {
   grid-row-end: 1;
 }
 
+.important {
+  background-color: $orange-hover-color;
+  text-align: center;
+  font-weight: 800;
+  font-size: 20px;
+  padding: 1rem;
+}
