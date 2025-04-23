@@ -478,3 +478,51 @@ a:hover {
 .poster-list {
   padding-left: 1.5rem;
 }
+
+.container-registration {
+    display: flex;
+    gap: 40px;
+    max-width: 900px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+  background: white;
+  border: solid;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  text-align: center;
+  flex: 1;
+  min-width: 300px;
+}
+
+.card p {
+  margin: 20px 0;
+}
+
+.card a {
+  display: inline-block;
+  padding: 10px 20px;
+  color: black;
+  text-decoration: none;
+  border: 3px solid black;
+  transition: background-color 0.3s ease;
+}
+
+.card a.online {
+  background-color: #ff67009F;
+}
+
+.card a.online:hover {
+  background-color: #ff6700;
+}
+
+.card a.inperson {
+  background-color: #ff67009F;
+}
+
+.card a.inperson:hover {
+  background-color: #ff6700;
+}
