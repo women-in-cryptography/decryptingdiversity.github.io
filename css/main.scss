@@ -526,3 +526,30 @@ a:hover {
 .card a.inperson:hover {
   background-color: #ff6700;
 }
+
+td:first-child {
+  min-width: 120px;
+  white-space: normal;
+  font-weight: 500;
+  font-size: 17px;
+  background-color: #FBA6713F;
+}
+
+td, th {
+  border: .5px solid black;
+  outline: 2px solid black;
+  outline-offset: 4px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0);
+  padding: 1px;
+  text-align: center;
+}
+
+th {
+  font-size: 18px;
+  background-color: #FBA6713F;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 15px; /* to make outline offset visible */
+}
