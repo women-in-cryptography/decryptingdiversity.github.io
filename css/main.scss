@@ -569,3 +569,17 @@ table {
 .bold {
   font-weight: 700;
 }
+
+.talks {
+  margin: .5rem;
+}
+
+.talk {
+
+ margin-bottom: 1.5rem;
+
+ > h3 {
+  text-align: left;
+  margin-bottom: .5rem;
+ }
+}
