@@ -582,4 +582,25 @@ table {
   text-align: left;
   margin-bottom: .5rem;
  }
+
+}
+
+.speaker-list {
+  margin-left:1.5rem;
+  list-style: none;
+  padding: 0;
+}
+
+.speaker-in {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1.5em;
+}
+
+.speaker-img {
+  width: 150px;
+  height: auto;
+  margin-right: .5em;
+  margin-top: .5em;
+  border: 3px solid black;
 }
