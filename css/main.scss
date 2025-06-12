@@ -546,12 +546,70 @@ td:first-child {
 }
 
 td, th {
-  border: .5px solid black;
-  outline: 2px solid black;
-  outline-offset: 4px;
+  border: 1px solid black;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0);
-  padding: 1px;
+  padding: 5px;
   text-align: center;
+}
+
+td .event {
+  font-size: 19px;
+  font-style: italic;
+}
+
+td .details {
+  font-size: 12px;
+}
+
+td .talk-details {
+  font-weight: 700;
+}
+
+td .online {
+  background-color: #cce8ff;
+  padding-left: .5rem;
+  padding-right: .5rem;
+}
+
+.small-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.regular-event {
+  background-color: #efefef;
+}
+
+.talk-event {
+  background-color: #d9d2e9;
+}
+
+.educ-talk-event {
+  background-color: #d9d2e9;
+}
+
+.joint-event {
+  background-color: #fce5cd;
+}
+
+.extra-event {
+  background-color: #fff3f6;
+}
+
+.poster-event {
+  background-color: #cfe2f3;
+}
+
+.panel-event {
+  background-color: #ead1dc;
+}
+
+.working-event {
+  background-color: #d9ead3;
+}
+
+.empty-event {
+  border: none;
 }
 
 th {
@@ -561,7 +619,9 @@ th {
 
 table {
   border-collapse: separate;
-  border-spacing: 15px; /* to make outline offset visible */
+  border-spacing: 10px; /* to make outline offset visible */
+  table-layout: fixed;
+  width: 100%;
 }
 
 .inside-list {
