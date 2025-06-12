@@ -571,6 +571,12 @@ td .online {
   padding-right: .5rem;
 }
 
+.online {
+  background-color: #cce8ff;
+  padding-left: .5rem;
+  padding-right: .5rem;
+}
+
 .small-icon {
   width: 16px;
   height: 16px;
@@ -654,6 +660,58 @@ table {
  }
 
 }
+
+/* Default: show table */
+.responsive-schedule-table {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+.responsive-schedule-cards {
+  display: none;
+}
+
+/* Hide table and show cards on mobile */
+@media screen and (max-width: 768px) {
+  .responsive-schedule-table {
+    display: none;
+  }
+
+  .responsive-schedule-cards {
+    display: block;
+  }
+
+  .schedule-day {
+    border: 3px solid black;
+    margin-bottom: 1rem;
+    padding: .5rem;
+  }
+
+  .schedule-day h3 {
+    margin-top: 0;
+  }
+
+  .schedule-slot {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+  }
+
+  .event {
+    font-style: italic;
+   }
+
+  .details {
+    font-size: 12px;
+  }
+
+  .online {
+    font-size: 0.85em;
+    color: #555;
+  }
+}
+
 
 .speaker-list {
   margin-left:1.5rem;
