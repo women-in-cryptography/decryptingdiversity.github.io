@@ -712,6 +712,20 @@ table {
   }
 }
 
+.legend {
+  border-top: 1px solid black;
+  text-align: left;
+  padding: 1rem;
+
+  > .inside-legend {
+    display: flex;
+    gap: 1em;
+  }
+
+  > .inside-legend p  {
+    font-size: 0.85em;
+  }
+}
 
 .speaker-list {
   margin-left:1.5rem;
